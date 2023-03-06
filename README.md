@@ -8,7 +8,7 @@ Features
 
 Some of the common websites streams videos by splitting it into multiple smaller files.<br/>
 The files are usually in .ts format.<br/>
-Given one who understand a little bit about how to view the source of loading a webpage, and in this case, streawming videos by multiple .ts files, he can leverage this tool to loop download the whole video.
+Given one who understand a little bit about how to view the source of loading a webpage, and in this case, streaming videos by multiple .ts files, he can leverage this tool to loop download the whole video.
 
 Currently, this tool is proven to work at the following site(s):<br/>
 https://gimy.app/<br/>
@@ -27,7 +27,7 @@ and replace it with the curl arguments copied from the Developer Tool.<br/>
 Update the url part where it loops, replace it with '$j' so that this tool can loop download it.<br/><br/>
 Be aware of the last line:<br/>
   --compressed<br/>
-you should remove it and just use the default, as it has the '\' character at the end so that it can continue on with the rest of the command lines:<br/>
+you should remove it and just use the default, as it has the '\\' character at the end so that it can continue on with the rest of the command lines:<br/>
   --compressed \\
 <br/>
 Save the file and move on to the next step to run the command line.<br/>
