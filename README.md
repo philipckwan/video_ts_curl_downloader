@@ -1,6 +1,7 @@
 # video_ts_curl_downloader
-This is a shell based tool using curl to loop download video in .ts format.
-Then, you can combine them to become one single .ts file.
+This is a shell based tool using curl to loop download video in .ts format.  
+Then, you can combine them to become one single .ts file.  
+Also, support loop download images in .jpg format.  
 
 
 Features
